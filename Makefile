@@ -5,9 +5,9 @@
 ## ----------------------------------------------------------------------
 
 # These can be overidden with env vars.
-REGISTRY ?= rofrano
-IMAGE_NAME ?= vagrant-provider
-IMAGE_TAG ?= ubuntu
+REGISTRY ?= verbinc
+IMAGE_NAME ?= verb-vagrant-docker
+IMAGE_TAG ?= debian
 IMAGE ?= $(REGISTRY)/$(IMAGE_NAME):$(IMAGE_TAG)
 PLATFORM ?= "linux/amd64,linux/arm64"
 
